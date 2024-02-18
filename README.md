@@ -11,7 +11,7 @@ History
  
  I have created my own custom PCB, which is build into a standard housing from Hammond (type 1591C), so no need to make 3D Prints.
  The hardware is based on the original design. However the key layout has been adopted to my needs. The current software I'm using is release 2.8 with my modifications. The software can be found in an own repository:
- [solder_station_software](https://github.com/Andy79881/soldering_station_software). Unfortunately I could not manage to add the repository as pure software repository within this one.
+ [soldering_station_software](https://github.com/Andy79881/soldering_station_software). Unfortunately I could not manage to add the repository as pure software repository within this one.
 
 Below you find the changes to the original design from [ArduinoHannover/Maiskolben](https://github.com/ArduinoHannover/Maiskolben)
 
