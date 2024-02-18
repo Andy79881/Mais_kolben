@@ -11,31 +11,27 @@ History
  
  I have created my own custom PCB, which is build into a standard housing from Hammond (type 1591C), so no need to make 3D Prints.
  The hardware is based on the original design. However the key layout has been adopted to my needs. The current software I'm using is release 2.8 with my modifications. The software can be found in an own repository:
- [soldering_station_software](https://github.com/Andy79881/soldering_station_software). Unfortunately I could not manage to add the repository as pure software repository within this one.
+ [soldering_station_software](https://github.com/Andy79881/soldering_station_software). Unfortunately I could not manage to integrate the software repository into this one.
 
 Below you find the changes to the original design from [ArduinoHannover/Maiskolben](https://github.com/ArduinoHannover/Maiskolben)
 
-Baseline:
+Code Baseline:
 ---
-- code is based on release 2.8, which is the latest code supporting TFT displays based on ST7735. Note: V3.x is based on a different display library (ILI9163C).
+- Refer to Readme of [soldering_station_software](https://github.com/Andy79881/soldering_station_software).
 
 Changes to original design and code:
 ----
 
-- TFT backlight output added (Arduino pin D0). Backlight can be adjusted via potentiometer (no PWM controlled TFT brightness)
-- modified definitions.h to cope with customized key layout and adding pin definition of TFT backlight discrete output (TFT_BL)
+- Backlight can be adjusted via potentiometer (no PWM controlled TFT brightness)
 - customized PCB to fit into standard housing from Hammond (type 1591C)
-- old fashioned ino file converted into cpp file format by following two steps (see [ino-to-cpp](https://docs.platformio.org/en/latest/faq/ino-to-cpp.html)).
+- Code changes are described in Readme of [soldering_station_software](https://github.com/Andy79881/soldering_station_software)
 
-Design decisions:
+HW Design decisions:
 ----
 - Diptrace is used for schematics and PCB layout creation (note: free editition 4.x can be used)
 - almost SMD components used (except 5V regulator, connectors, push buttons, LED and Arduino Nano)
-- software environment changed to VSCode with PlatformIO (library dependencies added into platformio.ini)
+
 
 Final Remarks:
 ---
-- Code is provided **AS IS**, so no warranties.
-- Code size is actually close to the limits. This may be also caused by using the latest library versions. Be aware of this if you make the build by yourself.
-
-   
+- TBD
