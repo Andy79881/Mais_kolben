@@ -1,7 +1,7 @@
 # Soldering-station
 ### ***based on Weller RT soldering tip***
 
-![Soldering station after power-up!](/images/solder_station_operating_front_view.jpg "Soldering station in operation - after power-up")
+![Soldering station after power-up](/images/solder_station_operating_front_view.jpg "Soldering station in operation - after power-up")
 
 History
 ----
@@ -32,6 +32,14 @@ HW Design decisions:
 ----
 - Diptrace is used for schematics and PCB layout creation (note: free editition 4.x can be used)
 - almost SMD components used (except 5V regulator, connectors, push buttons, LED and Arduino Nano)
+
+Construction and assembly:
+---
+- two copper-clad PCBs are inserted vertically into Hammond enclosure as spacers to keep distance of PCB to the lid - see figure below:
+
+![Soldering station rear view](/images/solder_station_rear_view.jpg "Soldering station rear view - showing PCBs as spacers ")
+
+- holes are drilled into the lid for the tactile caps of the push buttons.
 
 
 Final Remarks:
