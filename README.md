@@ -1,6 +1,8 @@
 # Soldering-station
 ### ***based on Weller RT soldering tip***
 
+![Soldering station after power-up!](/images/solder_station_operating_front_view.jpg "Soldering station in operation - after power-up")
+
 History
 ----
 
