@@ -1,4 +1,4 @@
-# soldering-station
+# Soldering-station
 ### ***based on Weller RT soldering tip***
 
 History
@@ -10,7 +10,7 @@ History
  In order to make this customized build there is no need to have the original code. Nevertheless, you will find all informations regarding code history, features of the different versions as well as the user manual in the repository, which hosts the original code.
  
  I have created my own custom PCB, which is build into a standard housing from Hammond (type 1591C), so no need to make 3D Prints.
- The hardware is based on the original design. However the key layout has been adopted to my needs. The current software I'm using is release 2.8 with my modifications. The software can be found in an own repository:
+ The hardware is based on the original design. However the key layout has been adopted to my needs. The software (source code) can be found in an own repository:
  [soldering_station_software](https://github.com/Andy79881/soldering_station_software). Unfortunately I could not manage to integrate the software repository into this one.
 
 Below you find the changes to the original design from [ArduinoHannover/Maiskolben](https://github.com/ArduinoHannover/Maiskolben)
@@ -19,7 +19,7 @@ Code Baseline:
 ---
 - Refer to Readme of [soldering_station_software](https://github.com/Andy79881/soldering_station_software).
 
-Changes to original design and code:
+Changes to original HW design and code:
 ----
 
 - Backlight can be adjusted via potentiometer (no PWM controlled TFT brightness)
@@ -34,4 +34,5 @@ HW Design decisions:
 
 Final Remarks:
 ---
-- TBD
+- feel free to build your own soldering station and stay creative
+- HW design data is provided **AS IS**, so no warranties.
